@@ -11,6 +11,15 @@
 }
 
 
+.first-section #return-btn {
+    font-family:  'SFProText-Regular';
+    font-weight: normal;
+    text-decoration: underline;
+    font-size: 15px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: #161821;
+}
 
 
 @media(min-width:425px) {
