@@ -1,0 +1,94 @@
+@font-face {
+    font-family: 'SFProText-Regular';
+    src: url(/fonts/SFProText-Regular.woff2) format('woff2');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'SFProText-Bold';
+    src: url(/fonts/SFProText-Bold.woff2) format('woff2');
+    font-weight: bold;
+}
+
+
+
+
+@media(min-width:425px) {
+
+    .second-section-notice {
+        margin: auto;
+        width: 60%;
+    }
+
+    .second-section-notice h1 {
+        text-align: center;
+        margin-top: 5%;
+        margin-bottom: 1%;
+        white-space: nowrap;
+        font-family:  'SFProText-Bold';
+    }
+
+    .second-section-notice p {
+        width: 100%;
+        line-height: 34px;
+        font-family:  'SFProText-Regular';
+        font-weight: 400;
+    }
+
+    .second-section-notice a {
+        border-bottom: 1px solid blue;
+        color: blue;
+    }
+
+    #proceed {
+        display: block;
+        margin: auto;
+        text-align: center;
+        margin-top: 5%;
+        border: none;
+        color: blue;
+        text-decoration: underline;
+        margin-bottom: 20%;
+    }
+}
+
+
+@media(max-width:425px) {
+
+    .second-section-notice {
+        margin: auto;
+        width: 100%;
+    }
+
+    .second-section-notice h1 {
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        white-space: nowrap;
+        font-size: 25px;
+        font-family:  'SFProText-Bold';
+
+    }
+
+    .second-section-notice p {
+        width: 100%;
+        line-height: 34px;
+        font-family:  'SFProText-Regular';
+    }
+
+    .second-section-notice a {
+        border-bottom: 1px solid black;
+        color: blue;
+    }
+
+    #proceed {
+        display: block;
+        margin: auto;
+        text-align: center;
+        margin-top: 5%;
+        border: none;
+        color: blue;
+        text-decoration: underline;
+        margin-bottom: 20%;
+    }
+}
